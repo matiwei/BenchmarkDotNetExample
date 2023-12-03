@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29905.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddingPerformanceTests", "AddingPerformanceTests\AddingPerformanceTests.csproj", "{1699BEE8-5CA8-4BD4-A14E-569A71A2D189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceTests", "PerformanceTests.csproj", "{3996EF9F-37B8-4BC3-AFD2-AB49C6CCA1E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{949A409A-A0B6-4D3C-A8CB-86CC70C6825C}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\benchmarks.yml = .github\workflows\benchmarks.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +16,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1699BEE8-5CA8-4BD4-A14E-569A71A2D189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1699BEE8-5CA8-4BD4-A14E-569A71A2D189}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1699BEE8-5CA8-4BD4-A14E-569A71A2D189}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1699BEE8-5CA8-4BD4-A14E-569A71A2D189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3996EF9F-37B8-4BC3-AFD2-AB49C6CCA1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3996EF9F-37B8-4BC3-AFD2-AB49C6CCA1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3996EF9F-37B8-4BC3-AFD2-AB49C6CCA1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3996EF9F-37B8-4BC3-AFD2-AB49C6CCA1E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
